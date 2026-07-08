@@ -11,6 +11,7 @@ import GoldParticles from "./Components/Gold Particle BackgroundComponent/Gold P
 import MusicPlayer from "./Components/Music BackgroundComponent/Music Background.tsx";
 import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails.tsx";
 import Location from "./Components/LocationComponent/Location.tsx";
+import Invitation from "./Components/InvitationComponent/Invitation.tsx";
 
 import Admin from "./Pages/Admin.tsx";
 
@@ -29,6 +30,7 @@ function Home() {
         <Hero />
 
         <Countdown />
+        <Invitation/>
 
         <StoryTimeline />
 
@@ -61,7 +63,7 @@ export default function App() {
 
       {/* صفحة الأدمن */}
       <Route 
-        path="/admin" 
+        path="/Admin" 
         element={<Admin />} 
       />
 

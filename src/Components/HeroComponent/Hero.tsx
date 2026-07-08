@@ -34,20 +34,21 @@ export default function Hero() {
 
 
         {/* Background Video */}
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="
-          absolute 
-          inset-0 
-          h-full 
-          w-full 
-          object-cover
-          pointer-events-none
-          "
-        >
+ <video
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="
+  absolute
+  inset-0
+  h-full
+  w-full
+  object-contain
+  bg-black
+  pointer-events-none
+  "
+>
 
           <source 
             src={weddingVideo} 

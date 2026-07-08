@@ -47,7 +47,7 @@ export default function Invitation(){
 <AnimatedText text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
 className="font-['Aref_Ruqaa'] text-yellow-300 text-3xl mb-8"/>
 
-<div className="rounded-3xl border border-yellow-500/30 bg-black/25 p-8">
+<div className="rounded-xl border border-yellow-500/30 bg-black/25 p-8">
 <AnimatedText
 text="﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾"
 className="font-['Amiri'] text-white text-3xl md:text-4xl leading-loose"/>
@@ -58,16 +58,16 @@ className="font-['Amiri'] text-white text-3xl md:text-4xl leading-loose"/>
 
 <AnimatedText
 text="بكل الحب والسعادة نتشرف بدعوتكم لمشاركتنا أجمل لحظات حياتنا وحضور حفل زفافنا، فوجودكم بيننا يزيد فرحتنا بهجةً وسرورًا."
-className="font-['Cairo'] text-gray-100 text-xl leading-10"/>
+className="font-['Cairo'] text-gray-100 text-lg leading-10"/>
 
 <div className="my-12">
-<h2 className="font-['Aref_Ruqaa'] text-6xl md:text-7xl text-yellow-300 drop-shadow-lg">مصطفى</h2>
+<h2 className="font-['Aref_Ruqaa'] text-3xl md:text-7xl text-yellow-300 drop-shadow-lg">مصطفى</h2>
 <div className="my-4 text-5xl text-yellow-400 animate-pulse">❦</div>
-<h2 className="font-['Aref_Ruqaa'] text-6xl md:text-7xl text-yellow-300 drop-shadow-lg">آية</h2>
+<h2 className="font-['Aref_Ruqaa'] text-3xl md:text-7xl text-yellow-300 drop-shadow-lg">آية</h2>
 </div>
 
 <div className="rounded-2xl border border-yellow-500/20 bg-black/20 p-6">
-<p className="font-['Cairo'] text-white text-xl">يسرنا حضوركم الكريم</p>
+<p className="font-['Cairo'] text-white text-lg">يسرنا حضوركم الكريم</p>
 <p className="mt-3 text-yellow-300">الجمعة • 28 أغسطس 2026</p>
 <p className="text-yellow-200">الجيزة - مصر</p>
 </div>
