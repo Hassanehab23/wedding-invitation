@@ -12,34 +12,60 @@ import MusicPlayer from "./Components/Music BackgroundComponent/Music Background
 import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails.tsx";
 import Location from "./Components/LocationComponent/Location.tsx";
 
-import Admin from "./Pages/Admin";
+import Admin from "./Pages/Admin.tsx";
+
 
 function Home() {
   return (
     <div className="relative overflow-hidden bg-black text-white">
+
       <GoldParticles />
+
       <Loader />
+
       <MusicPlayer />
 
       <div className="relative z-10">
         <Hero />
+
         <Countdown />
+
         <StoryTimeline />
+
         <WeddingDetails />
+
         <Location />
+
         <Gallery />
+
         <WishesWall />
+
         <Footer />
       </div>
+
     </div>
   );
 }
 
+
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/admin" element={<Admin />} />
+
+      {/* الصفحة الرئيسية */}
+      <Route 
+        path="/" 
+        element={<Home />} 
+      />
+
+
+      {/* صفحة الأدمن */}
+      <Route 
+        path="/admin" 
+        element={<Admin />} 
+      />
+
+
     </Routes>
   );
 }
