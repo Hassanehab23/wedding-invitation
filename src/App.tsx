@@ -28,9 +28,9 @@ function Home() {
 
       <div className="relative z-10">
         <Hero />
+        <Invitation/>
 
         <Countdown />
-        <Invitation/>
 
         <StoryTimeline />
 
