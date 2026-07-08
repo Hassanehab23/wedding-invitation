@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 
-import Footer from "./Components/FooterComponent/Footer";
-import Hero from "./Components/HeroComponent/Hero";
-import WishesWall from "./Components/WishesWallComponent/WishesWall";
-import Gallery from "./Components/GalleryComponent/Gallery";
-import Countdown from "./Components/CountdownComponent/Countdown";
-import Loader from "./Components/LoaderComponent/Loader";
-import StoryTimeline from "./Components/StoryTimelineComponent/StoryTimeline";
-import GoldParticles from "./Components/Gold Particle BackgroundComponent/Gold Particle Background";
-import MusicPlayer from "./Components/Music BackgroundComponent/Music Background";
-import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails";
-import Location from "./Components/LocationComponent/Location";
+import Footer from "./Components/FooterComponent/Footer.tsx";
+import Hero from "./Components/HeroComponent/Hero.tsx";
+import WishesWall from "./Components/WishesWallComponent/WishesWall.tsx";
+import Gallery from "./Components/GalleryComponent/Gallery.tsx";
+import Countdown from "./Components/CountdownComponent/Countdown.tsx";
+import Loader from "./Components/LoaderComponent/Loader.tsx";
+import StoryTimeline from "./Components/StoryTimelineComponent/StoryTimeline.tsx";
+import GoldParticles from "./Components/Gold Particle BackgroundComponent/Gold Particle Background.tsx";
+import MusicPlayer from "./Components/Music BackgroundComponent/Music Background.tsx";
+import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails.tsx";
+import Location from "./Components/LocationComponent/Location.tsx";
 
 import Admin from "./Pages/Admin";
 
