@@ -24,7 +24,7 @@ function AnimatedText({text,className}:AnimatedTextProps){
 
 export default function Invitation(){
  return(
-<section id="Invitation" className="relative min-h-screen overflow-hidden bg-linear-to-b from-black via-[#120d08] to-black flex items-center justify-center px-5 py-24">
+<section id="Invitation" className="relative min-h-screen overflow-hidden bg-linear-to-b from-black via-[#120d08] to-black flex items-center justify-center px-5 py-12">
 
 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(212,175,55,.22),transparent_60%)]"/>
 <div className="absolute -top-32 -left-32 h-72 w-72 rounded-full bg-yellow-500/10 blur-3xl"/>
