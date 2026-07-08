@@ -3,7 +3,7 @@ import { FaMusic, FaPause } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 import weddingMusic from "../../assets/Musics/Party2.mp3";
-import weddingMusic2 from "../../assets/Musics/Party4.mp3";
+import weddingMusic2 from "../../assets/Musics/Party5.mp3";
   type MusicPlayerProps = {
   onOpen: () => void;
 };
