@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import weddingVideo from "../../assets/Videos/wedding.mp4";
-import Invitation from "../InvitationComponent/Invitation";
+import weddingVideo from "../../assets/Videos/Wedding.mp4";
+import Invitation from "../InvitationComponent/Invitation.tsx";
 
 
 export default function Hero() {
