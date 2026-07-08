@@ -1,29 +1,27 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import weddingVideo from "../../assets/Videos/Wedding.mp4";
-import Invitation from "../InvitationComponent/Invitation.tsx";
 
 
 export default function Hero() {
 
-  const [showInvitation, setShowInvitation] = useState(false);
+  // const [showInvitation, setShowInvitation] = useState(false);
 
 
-  const showInvite = () => {
+  // const showInvite = () => {
 
-    setShowInvitation(true);
+  //   setShowInvitation(true);
 
-    setTimeout(() => {
+  //   setTimeout(() => {
 
-      document
-        .getElementById("Invitation")
-        ?.scrollIntoView({
-          behavior: "smooth",
-        });
+  //     document
+  //       .getElementById("Invitation")
+  //       ?.scrollIntoView({
+  //         behavior: "smooth",
+  //       });
 
-    }, 400);
+  //   }, 400);
 
-  };
+  // };
 
 
   return (
@@ -264,7 +262,7 @@ export default function Hero() {
 
 
 
-          <motion.button
+          {/* <motion.button
 
             whileHover={{
               scale:1.1
@@ -296,7 +294,7 @@ export default function Hero() {
 
             View Invitation
 
-          </motion.button>
+          </motion.button> */}
 
 
 
@@ -314,7 +312,7 @@ export default function Hero() {
 
       {/* INVITATION SECTION */}
 
-      {
+      {/* {
         showInvitation && (
 
           <motion.div
@@ -345,7 +343,7 @@ export default function Hero() {
           </motion.div>
 
         )
-      }
+      } */}
 
 
 
