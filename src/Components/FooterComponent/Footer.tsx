@@ -1,9 +1,12 @@
 export default function Footer() {
   return (
-    <footer className="py-16 text-center bg-black border-t border-yellow-400/20">
-      <h2 className="text-3xl font-bold text-yellow-400">
-        Thank You
-      </h2>
+    <footer id="Footer" className="py-16 text-center bg-black border-t border-yellow-400/20">
+<h2
+  className="text-5xl text-yellow-300 text-center"
+  style={{ fontFamily: "Aref Ruqaa, serif" }}
+>
+  ❤️ أصبحتَ أنتَ الخيرَ والنصيب
+</h2>
 
       <p className="text-gray-400 mt-3">
         Mostafa ❤️ Aya

@@ -3,10 +3,13 @@ import { FaMusic, FaPause } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 import weddingMusic from "../../assets/Musics/Party2.mp3";
-import weddingMusic2 from "../../assets/Musics/Party3.mp3";
+import weddingMusic2 from "../../assets/Musics/Party4.mp3";
+  type MusicPlayerProps = {
+  onOpen: () => void;
+};
 
 
-export default function MusicPlayer() {
+export default function MusicPlayer({ onOpen }: MusicPlayerProps) {
 
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -20,31 +23,24 @@ export default function MusicPlayer() {
 
 
 
-  const openInvitation = async () => {
+const openInvitation = async () => {
+  setOpened(true);
 
-    setOpened(true);
+  // تشغيل الـ Auto Scroll
+  onOpen();
 
+  if (!audioRef.current) return;
 
-    if (!audioRef.current) return;
+  try {
+    audioRef.current.volume = 1;
 
+    await audioRef.current.play();
 
-    try {
-
-      audioRef.current.volume = 1;
-
-      await audioRef.current.play();
-
-      setPlaying(true);
-
-
-    } catch (e) {
-
-      console.error(e);
-
-    }
-
-  };
-
+    setPlaying(true);
+  } catch (e) {
+    console.error(e);
+  }
+};
 
 
   const toggleMusic = async () => {

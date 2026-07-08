@@ -72,7 +72,7 @@ export default function WishesWall() {
   };
 
   return (
-    <section className="py-28 px-6">
+    <section id="WishesWall" className="py-28 px-6">
       <h2 className="mb-16 text-center text-5xl font-bold text-yellow-400">
         Wishes Wall
       </h2>

@@ -13,7 +13,7 @@ export default function Location() {
   return (
 
     <section
-      id="location"
+      id="Location"
       className="
       relative
       overflow-hidden

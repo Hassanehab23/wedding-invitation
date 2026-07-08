@@ -28,7 +28,7 @@ export default function Hero() {
     <>
 
       {/* HERO SECTION */}
-      <section className="relative h-screen overflow-hidden">
+      <section id="Hero" className="relative h-screen overflow-hidden">
 
 
         {/* Background Video */}
@@ -86,7 +86,7 @@ export default function Hero() {
         >
 
 
-
+{/* 
           <motion.p
             initial={{
               opacity:0
@@ -108,12 +108,12 @@ export default function Hero() {
             "
           >
             Together With Their Families
-          </motion.p>
+          </motion.p> */}
 
 
 
 
-
+{/* 
           <motion.h1
             initial={{
               opacity:0,
@@ -130,8 +130,8 @@ export default function Hero() {
             }}
 
             className="
-            text-6xl
-            md:text-8xl
+            text-2xl
+            md:text-4xl
             font-bold
             "
           >
@@ -188,8 +188,8 @@ export default function Hero() {
             }}
 
             className="
-            text-6xl
-            md:text-8xl
+            text-2xl
+            md:text-4xl
             font-bold
             "
           >
@@ -224,7 +224,7 @@ export default function Hero() {
           >
             Invite You To Celebrate Their Wedding
 
-          </motion.p>
+          </motion.p> */}
 
 
 
@@ -232,7 +232,7 @@ export default function Hero() {
 
 
 
-          <motion.p
+          {/* <motion.p
 
             initial={{
               opacity:0
@@ -253,7 +253,7 @@ export default function Hero() {
           >
             28 August 2026 • Giza, Egypt
 
-          </motion.p>
+          </motion.p> */}
           
           {/* <motion.button
 

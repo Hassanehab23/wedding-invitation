@@ -16,7 +16,7 @@ const stories = [
   },
   {
     id: 2,
-    date: "11 November 2021",
+    date: "8 November 2021",
     title: "The Proposal",
     description:
       "A promise of forever surrounded by smiles and love.",

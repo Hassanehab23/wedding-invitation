@@ -9,22 +9,24 @@ import Loader from "./Components/LoaderComponent/Loader.tsx";
 import StoryTimeline from "./Components/StoryTimelineComponent/StoryTimeline.tsx";
 import GoldParticles from "./Components/Gold Particle BackgroundComponent/Gold Particle Background.tsx";
 import MusicPlayer from "./Components/Music BackgroundComponent/Music Background.tsx";
-import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails.tsx";
+// import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails.tsx";
 import Location from "./Components/LocationComponent/Location.tsx";
 import Invitation from "./Components/InvitationComponent/Invitation.tsx";
-
+import AutoScroll from "./Components/AutoScrollComponent/AutoScroll.tsx";
 import Admin from "./Pages/Admin.tsx";
-
+import { useState } from "react";
 
 function Home() {
+const [startScroll, setStartScroll] = useState(false);
   return (
     <div className="relative overflow-hidden bg-black text-white">
+ <AutoScroll start={startScroll} />
 
       <GoldParticles />
 
       <Loader />
 
-      <MusicPlayer />
+<MusicPlayer onOpen={() => setStartScroll(true)} />
 
       <div className="relative z-10">
         <Hero />
@@ -34,7 +36,7 @@ function Home() {
 
         <StoryTimeline />
 
-        <WeddingDetails />
+        {/* <WeddingDetails /> */}
 
         <Location />
 

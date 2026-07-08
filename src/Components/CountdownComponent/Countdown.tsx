@@ -81,6 +81,7 @@ export default function Countdown() {
   return (
 
     <section
+    id="CountDown"
       className="
       relative
       overflow-hidden

@@ -4,7 +4,7 @@ import img3 from "../../assets/Images/3.jpeg";
 
 export default function Gallery() {
   return (
-    <section className="py-20 md:py-28 overflow-hidden">
+    <section id="Gallary" className="py-20 md:py-28 overflow-hidden">
 
       <h2 className="mb-12 text-center text-4xl md:text-5xl font-bold text-yellow-400">
         Gallery

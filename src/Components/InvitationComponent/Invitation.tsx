@@ -45,34 +45,49 @@ export default function Invitation(){
 <div className="text-yellow-400 text-4xl mb-8">✧ ❦ ✧</div>
 
 <AnimatedText text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
-className="font-['Aref_Ruqaa'] text-yellow-300 text-3xl mb-8"/>
+className="font-['Aref_Ruqaa'] text-yellow-300 text-3xl mb-2"/>
 
-<div className="rounded-lg border border-yellow-500/30 bg-black/25 p-8">
+<div className="rounded-lg border border-yellow-500/30 bg-black/25 p-4">
 <AnimatedText
 text="﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ﴾"
 className="font-['Amiri'] text-white text-lg md:text-xl leading-loose"/>
 <p className="mt-5 text-yellow-400 font-['Cairo']">سورة الروم - الآية 21</p>
 </div>
 
-<div className="w-44 h-px bg-linear-to-r from-transparent via-yellow-500 to-transparent mx-auto my-10"/>
+<div className="w-44 h-px bg-linear-to-r from-transparent via-yellow-500 to-transparent mx-auto my-5"/>
 
 <AnimatedText
 text="بكل الحب والسعادة نتشرف بدعوتكم لمشاركتنا أجمل لحظات حياتنا وحضور حفل زفافنا، فوجودكم بيننا يزيد فرحتنا بهجةً وسرورًا."
-className="font-['Cairo'] text-gray-100 text-xs leading-10"/>
+className="font-['Cairo'] text-gray-100 text-sm leading-10"/>
 
-<div className="my-12">
+<div className="my-6">
 <h2 className="font-['Aref_Ruqaa'] text-2xl md:text-4xl text-yellow-300 drop-shadow-lg">مصطفى</h2>
-<div className="my-4 text-5xl text-yellow-400 animate-pulse">❦</div>
+<div className="my-2 text-5xl text-yellow-400 animate-pulse">❦</div>
 <h2 className="font-['Aref_Ruqaa'] text-2xl md:text-4xl text-yellow-300 drop-shadow-lg">آية</h2>
 </div>
 
 <div className="rounded-2xl border border-yellow-500/20 bg-black/20 p-6">
 <p className="font-['Cairo'] text-white text-xs">يسرنا حضوركم الكريم</p>
-<p className="mt-3 text-yellow-300 text-xs">الجمعة • 28 أغسطس 2026</p>
-<p className="text-yellow-200 text-xs">الجيزة - مصر</p>
+<div className="mt-5 space-y-2 text-center text-yellow-200">
+  <p className="text-lg font-semibold">
+    📅 الجمعة • 28 أغسطس 2026
+  </p>
+
+  <p className="text-lg">
+    🕗 الساعة الثامنة مساءً
+  </p>
+
+  <p className="text-lg">
+    📍 نادي المعلمين - البحر الأعظم
+  </p>
+
+  <p className="text-lg font-medium text-yellow-400">
+    ✨ قاعة ريتال فيو ✨
+  </p>
+</div><p className="text-yellow-200 text-xs">الجيزة - مصر</p>
 </div>
 
-<div className="mt-10 text-yellow-400 text-4xl">✧ ❦ ✧</div>
+<div className="mt-5 text-yellow-400 text-4xl">✧ ❦ ✧</div>
 
 </motion.div>
 </section>
