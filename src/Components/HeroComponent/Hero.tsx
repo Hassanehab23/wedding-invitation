@@ -254,14 +254,7 @@ export default function Hero() {
             28 August 2026 • Giza, Egypt
 
           </motion.p>
-
-
-
-
-
-
-
-
+          
           {/* <motion.button
 
             whileHover={{
