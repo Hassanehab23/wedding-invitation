@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import weddingVideo from "../../assets/Videos/Wedding.mp4";
 
 
