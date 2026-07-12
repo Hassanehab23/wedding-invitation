@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import Footer from "./Components/FooterComponent/Footer.tsx";
 import Hero from "./Components/HeroComponent/Hero.tsx";
+import SecondHero from "./Components/SecondHeroComponent/SecondHero.tsx";
+import ThirdHero from "./Components/ThirdHeroComponent/ThirdHero.tsx";
 import WishesWall from "./Components/WishesWallComponent/WishesWall.tsx";
 import Gallery from "./Components/GalleryComponent/Gallery.tsx";
 import Countdown from "./Components/CountdownComponent/Countdown.tsx";
@@ -11,7 +13,7 @@ import GoldParticles from "./Components/Gold Particle BackgroundComponent/Gold P
 import MusicPlayer from "./Components/Music BackgroundComponent/Music Background.tsx";
 // import WeddingDetails from "./Components/WeddingDetailsComponent/WeddingDetails.tsx";
 import Location from "./Components/LocationComponent/Location.tsx";
-import Invitation from "./Components/InvitationComponent/Invitation.tsx";
+// import Invitation from "./Components/InvitationComponent/Invitation.tsx";
 import AutoScroll from "./Components/AutoScrollComponent/AutoScroll.tsx";
 import Admin from "./Pages/Admin.tsx";
 import { useState } from "react";
@@ -30,7 +32,9 @@ const [startScroll, setStartScroll] = useState(false);
 
       <div className="relative z-10">
         <Hero />
-        <Invitation/>
+        <SecondHero/>
+        <ThirdHero />
+
 
         <Countdown />
 

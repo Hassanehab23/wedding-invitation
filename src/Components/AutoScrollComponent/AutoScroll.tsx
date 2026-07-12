@@ -16,7 +16,8 @@ export default function AutoScroll({ start }: Props) {
 
     const sections = [
       "Hero",
-      "Invitation",
+      "SecondHero",
+      "ThirdHero",
       "CountDown",
       "StoryTimeLine",
       "Location",

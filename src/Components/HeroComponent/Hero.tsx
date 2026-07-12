@@ -1,4 +1,4 @@
-import weddingVideo from "../../assets/Videos/Wedding.mp4";
+import weddingVideo from "../../assets/Videos/Wedding1 .mp4";
 
 
 export default function Hero() {
