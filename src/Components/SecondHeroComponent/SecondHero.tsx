@@ -5,7 +5,8 @@ export default function SecondHero() {
   return (
     <>
       {/* HERO SECTION */}
-      <section id="SecondHero" className="relative w-full h-screen overflow-hidden flex items-center justify-center">
+      {/* تم إضافة bg-black هنا عشان لو فيه مساحات فارغة تظهر بلون أسود أنيق */}
+      <section id="SecondHero" className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-black">
         
         {/* Background Image Container */}
         <div className="absolute inset-0 w-full h-full -z-10">
@@ -18,7 +19,12 @@ export default function SecondHero() {
             transition={{
               duration: 0.6,
             }}
-            className="w-full h-full object-cover object-center"
+            /* 
+              التعديل السحري هنا:
+              تم تغيير object-cover إلى object-contain
+              عشان الصورة تظهر كاملة بدون أي قص
+            */
+            className="w-full h-full object-contain object-center"
           />
         </div>
 
@@ -29,7 +35,6 @@ export default function SecondHero() {
         <div className="relative z-10 text-center">
           
         </div>
-
       </section>
     </>
   );
