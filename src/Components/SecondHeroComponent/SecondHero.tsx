@@ -12,12 +12,6 @@ export default function SecondHero() {
           <motion.img
             src={weddingImg}
             alt="Wedding Background"
-            whileHover={{
-              scale: 1.05,
-            }}
-            transition={{
-              duration: 0.6,
-            }}
             className="w-full h-full object-cover object-center"
           />
         </div>
