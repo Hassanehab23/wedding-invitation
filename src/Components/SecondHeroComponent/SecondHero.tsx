@@ -12,7 +12,7 @@ export default function SecondHero() {
           <motion.img
             src={weddingImg}
             alt="Wedding Background"
-            className="w-1/12 mx-auto h-full object-cover object-center"
+            className="w-11/12 mx-auto h-full object-cover object-center"
           />
         </div>
 
